@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 
-<html lang="es">
-    
+<html>
     <head>
-
-        <meta charset="UTF-8"> 
-        <title>Barbería Secchi</title>
-        <link rel="stylesheet" href="style-home.css">
-    
+        <meta charset="UTF-8">
+        <title>Productos - Barbería Secchi</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
-
     <body>
-
         <header>
-            <h1 class="titulo-principal">Barbería Secchi</h1>
+            <div class="caja">
+                <h1><img src="imagenes/logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <img id="banner" src="banner/banner.jpg">
-        
-        <div class="principal">
-
-            <h2 class="titulo-centralizado">Sobre la Barbería Secchi</h2>
-
-            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Secchi</strong> trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, la Barbería Secchi ya es destaque en la ciudad y conquista nuevos clientes diariamente.</p>
-
-            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
-
-            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
-
-        </div>
-
-        <div class="diferenciales">
-
-            <h3 class="titulo-centralizado">Diferenciales</h3>
-        
-            <ul>
-                <li class="items">Atención personalizada a los clientes</li>
-                <li class="items">Espacio diferenciado</li>
-                <li class="items">Localización</li>
-                <li class="items">Profesesionales calificados</li>
+        <main>
+            <ul class="productos">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src="imagenes/cabello.jpg">
+                    <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+                    <p class="producto-precio">$ 10.00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="imagenes/barba.jpg">
+                    <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                    <p class="producto-precio">$ 08.00</p>
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="imagenes/cabello+barba.jpg">
+                    <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                    <p class="producto-precio">$ 15.00</p>
+                </li>
             </ul>
+        </main>
 
-            <img src="diferenciales/diferenciales.jpg" class="imagenDiferenciales">
-
-        </div>
-        
-        
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyright">&copy Copyright Barbería Secchi - 2020</p>
+        </footer>
     </body>
 </html>
